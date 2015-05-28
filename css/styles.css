@@ -1,0 +1,49 @@
+/*  
+
+Notes for later thoughts on CSS
+
+
+font-family: 'Open Sans Condensed', sans-serif;
+
+font-family: 'Lora', serif;
+
+
+
+
+
+
+
+use :hover and :active
+
+*/
+
+body {
+	background: white;
+}
+
+header {
+	background: purple;
+}
+
+footer {
+	background: purple;
+}
+
+nav a {
+	color: white;
+	text-transform: capitalize;
+	font-weight: bold;
+
+}
+
+nav a:hover {
+	background: gray;
+	color: black;
+}
+
+.btn {
+	color: white;
+	font-size: 2em;
+	padding: 10px;
+
+}
