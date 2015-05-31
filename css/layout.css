@@ -12,7 +12,7 @@ header, section, footer, aside, nav, article, figure, figcaption {
 html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
 
 body {
-	background: gray;
+	background: white;
 	margin: 0 auto;
 }
 
