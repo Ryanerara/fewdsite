@@ -152,6 +152,16 @@ article {
 	display: inline;
 }
 }
+
+
+/*for nav display on smaller windows*/
+@media (max-width: 999px) {
+	h1 {
+		display: block;
+	}
+}
+
+
 /*this may cause you problems if you use this class for other things that you don't want to display inline */
 /*
 aside, article {
