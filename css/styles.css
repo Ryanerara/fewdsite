@@ -10,6 +10,7 @@ use :hover and :active */
 * {
  font-family: 'Lora', serif;
  text-align: left;
+ font-size:16px;
 }
 body {
 	background: white;
@@ -23,6 +24,7 @@ footer {
 	background: purple;
 }
 
+/*nav style*/
 nav a {
 	color: white;
 	text-transform: capitalize;
@@ -36,11 +38,21 @@ li, h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
+/* nav link hover*/
 nav a:hover {
 	background: gray;
 	color: black;
 }
 
+article h1 {
+	margin: 2px;
+}
+
+article p {
+	margin: 2px;
+}
+
+/*Hamburger style*/
 .btn {
 	color: white;
 	font-size: 2em;
