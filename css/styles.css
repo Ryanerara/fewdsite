@@ -36,7 +36,8 @@ li, h1, h2, h3, h4, h5, h6, nav {
 }
 
 p {
- font-family: 'Lora', serif;
+ 	font-family: 'Lora', serif;
+ 	font-size: 16px;
 }
 
 /* nav link hover*/
@@ -49,6 +50,7 @@ article h1 {
 	margin: 2px;
 	border-bottom: 1px solid black;
 	border-width: 80%;
+	border-spacing: 5px;
 }
 
 article p {
@@ -62,3 +64,4 @@ article p {
 	padding: 10px;
 
 }
+
