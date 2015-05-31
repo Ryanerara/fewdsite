@@ -3,20 +3,14 @@
 Notes for later thoughts on CSS
 
 
-font-family: 'Open Sans Condensed', sans-serif;
-
-font-family: 'Lora', serif;
 
 
+use :hover and :active */
 
-
-
-
-
-use :hover and :active
-
-*/
-
+* {
+ font-family: 'Lora', serif;
+ text-align: left;
+}
 body {
 	background: white;
 }
@@ -34,6 +28,12 @@ nav a {
 	text-transform: capitalize;
 	font-weight: bold;
 
+}
+
+/* FONTS*/
+li, h1, h2, h3, h4, h5, h6, {
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
 }
 
 nav a:hover {
