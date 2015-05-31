@@ -48,9 +48,11 @@ nav a:hover {
 
 article h1 {
 	margin: 2px;
+	text-align: center;
 	border-bottom: 1px solid black;
 	border-width: 80%;
 	border-spacing: 5px;
+	font-size: 18px;
 }
 
 article p {
@@ -65,3 +67,6 @@ article p {
 
 }
 
+li {
+	font-size: 18px;
+}
