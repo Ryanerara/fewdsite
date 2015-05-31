@@ -70,18 +70,18 @@ div .main-bar {
 
 .rotator {
 	background: pink;
-	width: 61%;
+	/*width: 61%;*/
 	height: 300px;
-	margin: 15px 20px 20px 45px;
+	/*margin: 15px 20px 20px 45px;*/
 	float: left;
 }
 
 
 aside {
 	background: pink;
-	width: 28%;
+	/*width: 28%;*/
 	height: 300px;
-	margin: 15px 45px 20px 20px;
+	/*margin: 15px 45px 20px 20px;*/
 	float: right;
 }
 
@@ -97,16 +97,17 @@ main {
 
 article {
 	background: pink;
-	margin: 30px 12px 30px 12px;
+	/*margin: 30px 12px 30px 12px;*/
 	padding: 5px;
-	width: 28%;
+	/*width: 28%;*/
 	height: 160px;
 	float: right;
 }
- article:last-child, article:first-child {
+ 
+ /*article:last-child, article:first-child {
  	margin-left: 45px;
  	margin-right: 45px;
- }
+ }*/
 
 
 .call-out {
@@ -126,12 +127,12 @@ article {
 }
 
 /* MOBILE QUERY */
-@media (max-width: 640px) {
+/*@media (max-width: 640px) {
 .desktop-only, main {
 	display: none;
-}
+}*/
 /*this may cause you problems if you use this class for other things that you don't want to display inline */
-.mobile-only {
+/*.mobile-only {
 	display: inline;
 }
 aside, article {
@@ -140,9 +141,7 @@ aside, article {
 
 }
 
-
-
-}
+}*/
 
 
 
