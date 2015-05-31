@@ -74,9 +74,7 @@ div .main-bar {
 
 .rotator {
 	background: pink;
-	/*width: 61%;*/
 	height: 300px;
-	/*margin: 15px 20px 20px 45px;*/
 	float: left;
 }
 
@@ -88,9 +86,7 @@ header, footer {
 
 aside {
 	background: pink;
-	/*width: 28%;*/
 	height: 300px;
-	/*margin: 15px 45px 20px 20px;*/
 	float: right;
 }
 
@@ -106,9 +102,7 @@ main {
 
 article {
 	background: pink;
-	/*margin: 30px 12px 30px 12px;*/
 	padding: 5px;
-	/*width: 28%;*/
 	height: 160px;
 	float: right;
 }
@@ -116,11 +110,6 @@ article {
 .emailsign {
 	height: 300px;
 }
- 
- /*article:last-child, article:first-child {
- 	margin-left: 45px;
- 	margin-right: 45px;
- }*/
 
 
 .call-out {
@@ -149,7 +138,7 @@ article {
 .desktop-only {
 	display: none;
 }
-article {
+article, .second-bar {
 	height: 300px;
 }
 .mobile-only {
@@ -159,26 +148,6 @@ article {
 	display: inline;
 }
 }
-
-
-/*for nav display on smaller windows
-@media (max-width: 999px) {
-	h1 {
-		display: block;
-	}
-}*/
-
-
-/*this may cause you problems if you use this class for other things that you don't want to display inline */
-/*
-aside, article {
-	display: block;
-	width: 90%;
-
-}
-
-}*/
-
 
 
 
