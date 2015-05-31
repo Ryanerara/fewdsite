@@ -58,6 +58,10 @@ header {
 
 }
 
+.footer-nav { 
+	margin-bottom: 10px;
+}
+
 .clear {
 	clear: both;
 }
@@ -83,6 +87,7 @@ header, footer {
 	padding-left: 50px;
 	padding-right: 50px;
 	width: 100%;
+	display: block;
 }
 
 aside {
