@@ -148,12 +148,12 @@ article {
 article {
 	height: 300px;
 }
-
-}
-/*this may cause you problems if you use this class for other things that you don't want to display inline */
-/*.mobile-only {
+.mobile-only {
 	display: inline;
 }
+}
+/*this may cause you problems if you use this class for other things that you don't want to display inline */
+/*
 aside, article {
 	display: block;
 	width: 90%;
