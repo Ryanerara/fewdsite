@@ -9,7 +9,6 @@ use :hover and :active */
 
 * {
  font-family: 'Lora', serif;
- font-size:16px;
 }
 body {
 	background: white;
@@ -31,10 +30,15 @@ nav a {
 
 }
 
+
 /* FONTS*/
-li, h1, h2, h3, h4, h5, h6 {
+li, h1, h2, h3, h4, h5, h6, nav {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
+}
+
+p {
+	
 }
 
 /* nav link hover*/
