@@ -147,6 +147,15 @@ article, .second-bar {
 .btn {
 	display: inline;
 }
+li 	{
+	padding: 5px;
+}
+nav {
+	margin-top: 5px;
+}
+nav a {
+	padding: 5px;
+}
 }
 
 
