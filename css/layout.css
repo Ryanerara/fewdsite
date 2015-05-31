@@ -82,6 +82,7 @@ div .main-bar {
 header, footer {
 	padding-left: 50px;
 	padding-right: 50px;
+	width: 100%;
 }
 
 aside {
