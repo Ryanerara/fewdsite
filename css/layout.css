@@ -81,7 +81,7 @@ div .main-bar {
 }
 
 /*have header and footer extend*/
-header footer {
+header, footer {
 	margin-left: 50px;
 	margin-right: 50px;
 }
@@ -153,6 +153,9 @@ article {
 	height: 300px;
 }
 .mobile-only {
+	display: inline;
+}
+.btn {
 	display: inline;
 }
 }
