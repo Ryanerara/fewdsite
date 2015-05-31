@@ -135,27 +135,22 @@ article {
 
 /* MOBILE QUERY */
 @media (max-width: 700px) {
-.desktop-only {
-	display: none;
-}
-article, .second-bar {
-	height: 300px;
-}
-.mobile-only {
-	display: inline;
-}
-.btn {
-	display: inline;
-}
-li 	{
-	padding: 5px;
-}
-nav {
-	margin-top: 5px;
-}
-nav a {
-	padding: 5px;
-}
+	.desktop-only {
+		display: none;
+	}
+	article, .second-bar {
+		height: 300px;
+	}
+	.mobile-only {
+		display: inline;
+	}
+	.btn {
+		display: inline;
+	}
+	li 	{
+	padding: 10px;
+	}
+
 }
 
 
