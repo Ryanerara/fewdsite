@@ -13,7 +13,7 @@ html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
 
 body {
 	background: white;
-	margin: 20px auto;
+	margin: 0 auto;
 }
 
 /* controls header image */
@@ -63,7 +63,7 @@ header {
 
 div .main-bar { 	
 	clear: both;
-	margin: 0 auto;
+	margin: 20px auto;
 
 }
 
