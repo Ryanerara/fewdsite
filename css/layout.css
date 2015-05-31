@@ -111,7 +111,7 @@ article {
 	padding: 7px;
 	height: 165px;
 	float: right;
-	overflow: visible;
+	overflow: hidden;
 }
 
 .emailsign {
