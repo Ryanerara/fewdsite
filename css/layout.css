@@ -9,8 +9,10 @@ header, section, footer, aside, nav, article, figure, figcaption {
 	display: block;
 }
 
+/*border box settings*/
 html { box-sizing: border-box; } *, *:before, *:after { box-sizing: inherit; }
 
+/*body color and centering*/
 body {
 	background: white;
 	margin: 0 auto;
@@ -22,7 +24,7 @@ h1 {
 	display: inline-block;
 }
 
-/* makes bullet go away */
+/* makes bullets go away */
 ul {
 	display: inline;
 }
@@ -33,17 +35,20 @@ li {
 	padding: 15px;
 }
 
+/*aligns nav items and pushes them from top of container*/
 nav {
 	float: right;
 	margin-top: 20px;
 }
+
+/*styles links to have padding around and more clickable and no underline on links*/
 nav a {
 	padding: 10px;
 	text-decoration: none;
 }
 
 header {
-	margin: 0 0 20px 0;
+	margin: 0 0 20px 0 !important;
 	display: block;
 }
 
@@ -56,7 +61,7 @@ header {
 .clear {
 	clear: both;
 }
-
+/*gives full space of container*/
 .clearfix {
 	overflow: auto;
 }
@@ -127,7 +132,7 @@ article {
 
 /*One Percent CSS debugging*/
 .space {
-	margin-top: 20px;
+	margin-top: 20px !important;
 }
 
 /* MOBILE QUERY */
