@@ -7,9 +7,7 @@ Notes for later thoughts on CSS
 
 use :hover and :active */
 
-* {
- font-family: 'Lora', serif;
-}
+
 body {
 	background: white;
 }
@@ -38,7 +36,7 @@ li, h1, h2, h3, h4, h5, h6, nav {
 }
 
 p {
-	
+ font-family: 'Lora', serif;
 }
 
 /* nav link hover*/
@@ -49,6 +47,8 @@ nav a:hover {
 
 article h1 {
 	margin: 2px;
+	border-bottom: 1px solid black;
+	border-width: 80%;
 }
 
 article p {
