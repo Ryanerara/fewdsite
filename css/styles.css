@@ -52,7 +52,7 @@ article h1 {
 	border-bottom: 1px solid black;
 	border-width: 80%;
 	border-spacing: 5px;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 article p {
@@ -68,5 +68,5 @@ article p {
 }
 
 li {
-	font-size: 18px;
+	font-size: 24px;
 }
