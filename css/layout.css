@@ -135,6 +135,11 @@ article {
 .desktop-only, main {
 	display: none;
 }
+article {
+	height: 300px;
+}
+
+}
 /*this may cause you problems if you use this class for other things that you don't want to display inline */
 /*.mobile-only {
 	display: inline;
